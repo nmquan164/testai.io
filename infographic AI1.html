@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="vi"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Infographic: Cơ Cấu Kinh Tế Các Tỉnh Thành Việt Nam&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.jsdelivr.net/npm/chart.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.chart-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Custom scrollbar for better aesthetics */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar-track {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f1f1f1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar-thumb {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #888;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar-thumb:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #555;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-gray-50 text-gray-800"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container mx-auto p-4 sm:p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header class="text-center mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-3xl md:text-4xl font-bold text-blue-700"&gt;Cơ Cấu Kinh Tế Các Tỉnh Thành Việt Nam&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600 mt-2 max-w-3xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Dữ liệu trực quan về tỷ trọng các ngành Nông-Lâm-Thủy sản, Công nghiệp-Xây dựng và Dịch vụ trong tổng sản phẩm (GRDP) của 63 tỉnh thành.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;br&gt;&lt;span class="text-sm italic"&gt;(Số liệu tham khảo năm 2022)&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Filter and Search Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="sticky top-0 bg-gray-50/80 backdrop-blur-sm z-10 py-4 mb-8 px-4 border-b"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="max-w-4xl mx-auto flex flex-col sm:flex-row gap-4 items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;input type="text" id="searchInput" placeholder="Tìm kiếm tỉnh thành..." class="w-full sm:w-1/2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;select id="regionFilter" class="w-full sm:w-1/2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="all"&gt;Tất cả các vùng&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="dong-bang-song-hong"&gt;Đồng bằng sông Hồng&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="trung-du-mien-nui-phia-bac"&gt;Trung du và miền núi phía Bắc&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="bac-trung-bo-duyen-hai-mien-trung"&gt;Bắc Trung Bộ và Duyên hải miền Trung&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="tay-nguyen"&gt;Tây Nguyên&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="dong-nam-bo"&gt;Đông Nam Bộ&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="dong-bang-song-cuu-long"&gt;Đồng bằng sông Cửu Long&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Province Grid --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;main id="provinceGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Province cards will be injected here by JavaScript --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/main&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="noResults" class="hidden text-center py-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-xl text-gray-500"&gt;Không tìm thấy tỉnh thành nào phù hợp.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Data for economic structure of provinces in Vietnam (Reference data for 2022)</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Sectors: NLTS (Nông, lâm nghiệp và thủy sản), CNXD (Công nghiệp và xây dựng), DV (Dịch vụ), SP-TNK (Sản phẩm trừ trợ cấp sản phẩm)</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const provinceData = [</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Đồng bằng sông Hồng</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hà Nội', region: 'dong-bang-song-hong', data: { nlts: 2.38, cnxd: 24.02, dv: 64.04, sp_tnk: 9.56 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Vĩnh Phúc', region: 'dong-bang-song-hong', data: { nlts: 7.96, cnxd: 50.31, dv: 33.18, sp_tnk: 8.55 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bắc Ninh', region: 'dong-bang-song-hong', data: { nlts: 3.1, cnxd: 73.6, dv: 18.2, sp_tnk: 5.1 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Quảng Ninh', region: 'dong-bang-song-hong', data: { nlts: 4.5, cnxd: 51.5, dv: 35.5, sp_tnk: 8.5 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hải Dương', region: 'dong-bang-song-hong', data: { nlts: 8.0, cnxd: 59.8, dv: 24.2, sp_tnk: 8.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hải Phòng', region: 'dong-bang-song-hong', data: { nlts: 3.9, cnxd: 53.4, dv: 36.6, sp_tnk: 6.1 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hưng Yên', region: 'dong-bang-song-hong', data: { nlts: 8.2, cnxd: 63.4, dv: 21.4, sp_tnk: 7.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Thái Bình', region: 'dong-bang-song-hong', data: { nlts: 23.5, cnxd: 41.5, dv: 28.5, sp_tnk: 6.5 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hà Nam', region: 'dong-bang-song-hong', data: { nlts: 8.5, cnxd: 61.5, dv: 23.5, sp_tnk: 6.5 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Nam Định', region: 'dong-bang-song-hong', data: { nlts: 21.4, cnxd: 39.1, dv: 32.5, sp_tnk: 7.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Ninh Bình', region: 'dong-bang-song-hong', data: { nlts: 11.5, cnxd: 46.5, dv: 35.5, sp_tnk: 6.5 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Trung du và miền núi phía Bắc</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hà Giang', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 35.2, cnxd: 21.3, dv: 39.5, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Cao Bằng', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 25.1, cnxd: 27.4, dv: 43.5, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bắc Kạn', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 29.8, cnxd: 19.2, dv: 47.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Tuyên Quang', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 26.5, cnxd: 40.5, dv: 29.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Lào Cai', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 13.5, cnxd: 49.5, dv: 32.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Yên Bái', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 22.5, cnxd: 37.5, dv: 36.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Thái Nguyên', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 8.5, cnxd: 59.5, dv: 27.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Lạng Sơn', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 25.5, cnxd: 21.5, dv: 49.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bắc Giang', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 15.5, cnxd: 63.5, dv: 16.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Phú Thọ', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 17.5, cnxd: 42.5, dv: 35.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Điện Biên', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 28.5, cnxd: 18.5, dv: 49.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Lai Châu', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 19.5, cnxd: 43.5, dv: 33.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Sơn La', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 28.5, cnxd: 30.5, dv: 37.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hòa Bình', region: 'trung-du-mien-nui-phia-bac', data: { nlts: 16.5, cnxd: 51.5, dv: 28.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Bắc Trung Bộ và Duyên hải miền Trung</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Thanh Hóa', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 17.2, cnxd: 48.3, dv: 28.5, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Nghệ An', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 21.5, cnxd: 34.5, dv: 39.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hà Tĩnh', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 18.5, cnxd: 43.5, dv: 31.0, sp_tnk: 7.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Quảng Bình', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 21.5, cnxd: 29.5, dv: 44.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Quảng Trị', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 20.5, cnxd: 39.5, dv: 35.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Thừa Thiên Huế', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 11.5, cnxd: 33.5, dv: 47.0, sp_tnk: 8.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Đà Nẵng', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 1.8, cnxd: 21.2, dv: 67.5, sp_tnk: 9.5 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Quảng Nam', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 14.5, cnxd: 35.5, dv: 31.0, sp_tnk: 19.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Quảng Ngãi', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 16.5, cnxd: 49.5, dv: 28.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bình Định', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 25.5, cnxd: 29.5, dv: 40.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Phú Yên', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 23.5, cnxd: 31.5, dv: 40.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Khánh Hòa', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 10.5, cnxd: 31.5, dv: 49.0, sp_tnk: 9.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Ninh Thuận', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 28.5, cnxd: 30.5, dv: 36.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bình Thuận', region: 'bac-trung-bo-duyen-hai-mien-trung', data: { nlts: 29.5, cnxd: 35.5, dv: 30.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Tây Nguyên</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Kon Tum', region: 'tay-nguyen', data: { nlts: 31.5, cnxd: 26.5, dv: 38.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Gia Lai', region: 'tay-nguyen', data: { nlts: 38.5, cnxd: 21.5, dv: 35.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Đắk Lắk', region: 'tay-nguyen', data: { nlts: 40.5, cnxd: 18.5, dv: 37.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Đắk Nông', region: 'tay-nguyen', data: { nlts: 35.5, cnxd: 28.5, dv: 32.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Lâm Đồng', region: 'tay-nguyen', data: { nlts: 39.5, cnxd: 19.5, dv: 37.0, sp_tnk: 4.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Đông Nam Bộ</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bình Phước', region: 'dong-nam-bo', data: { nlts: 25.5, cnxd: 43.5, dv: 26.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Tây Ninh', region: 'dong-nam-bo', data: { nlts: 21.5, cnxd: 45.5, dv: 28.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bình Dương', region: 'dong-nam-bo', data: { nlts: 3.5, cnxd: 67.5, dv: 22.0, sp_tnk: 7.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Đồng Nai', region: 'dong-nam-bo', data: { nlts: 8.5, cnxd: 60.5, dv: 24.0, sp_tnk: 7.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bà Rịa - Vũng Tàu', region: 'dong-nam-bo', data: { nlts: 5.5, cnxd: 57.5, dv: 29.0, sp_tnk: 8.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'TP. Hồ Chí Minh', region: 'dong-nam-bo', data: { nlts: 0.6, cnxd: 22.1, dv: 65.8, sp_tnk: 11.5 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Đồng bằng sông Cửu Long</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Long An', region: 'dong-bang-song-cuu-long', data: { nlts: 16.5, cnxd: 52.5, dv: 25.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Tiền Giang', region: 'dong-bang-song-cuu-long', data: { nlts: 34.5, cnxd: 29.5, dv: 30.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bến Tre', region: 'dong-bang-song-cuu-long', data: { nlts: 38.5, cnxd: 24.5, dv: 31.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Trà Vinh', region: 'dong-bang-song-cuu-long', data: { nlts: 36.5, cnxd: 30.5, dv: 27.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Vĩnh Long', region: 'dong-bang-song-cuu-long', data: { nlts: 32.5, cnxd: 31.5, dv: 30.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Đồng Tháp', region: 'dong-bang-song-cuu-long', data: { nlts: 42.5, cnxd: 19.5, dv: 33.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'An Giang', region: 'dong-bang-song-cuu-long', data: { nlts: 35.5, cnxd: 18.5, dv: 41.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Kiên Giang', region: 'dong-bang-song-cuu-long', data: { nlts: 40.5, cnxd: 22.5, dv: 32.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Cần Thơ', region: 'dong-bang-song-cuu-long', data: { nlts: 9.5, cnxd: 32.5, dv: 52.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Hậu Giang', region: 'dong-bang-song-cuu-long', data: { nlts: 33.5, cnxd: 30.5, dv: 30.0, sp_tnk: 6.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Sóc Trăng', region: 'dong-bang-song-cuu-long', data: { nlts: 43.5, cnxd: 19.5, dv: 32.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Bạc Liêu', region: 'dong-bang-song-cuu-long', data: { nlts: 44.5, cnxd: 25.5, dv: 25.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">            </span>{ name: 'Cà Mau', region: 'dong-bang-song-cuu-long', data: { nlts: 41.5, cnxd: 28.5, dv: 25.0, sp_tnk: 5.0 } },</p>
+<p class="p1"><span class="Apple-converted-space">        </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const provinceGrid = document.getElementById('provinceGrid');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const searchInput = document.getElementById('searchInput');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const regionFilter = document.getElementById('regionFilter');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const noResults = document.getElementById('noResults');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const colors = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>nlts: 'rgba(75, 192, 192, 0.8)', // Green for Agriculture</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cnxd: 'rgba(255, 159, 64, 0.8)', // Orange for Industry</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dv: 'rgba(54, 162, 235, 0.8)', <span class="Apple-converted-space">  </span>// Blue for Services</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const borderColors = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>nlts: 'rgba(75, 192, 192, 1)',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cnxd: 'rgba(255, 159, 64, 1)',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dv: 'rgba(54, 162, 235, 1)',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Function to create a card for a province</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createProvinceCard(province) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const card = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.className = 'province-card bg-white p-4 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.dataset.name = province.name.toLowerCase();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.dataset.region = province.region;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const title = document.createElement('h3');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>title.className = 'text-lg font-semibold text-center mb-3 text-gray-700';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>title.textContent = province.name;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const chartContainer = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>chartContainer.className = 'chart-container';</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const canvas = document.createElement('canvas');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>chartContainer.appendChild(canvas);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const legend = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>legend.className = 'mt-4 text-xs text-center space-y-1';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>legend.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center justify-center"&gt;&lt;span class="w-3 h-3 rounded-full mr-2" style="background-color: ${colors.nlts}"&gt;&lt;/span&gt;Nông-Lâm-Thủy sản: &lt;b&gt;${province.data.nlts}%&lt;/b&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center justify-center"&gt;&lt;span class="w-3 h-3 rounded-full mr-2" style="background-color: ${colors.cnxd}"&gt;&lt;/span&gt;Công nghiệp-Xây dựng: &lt;b&gt;${province.data.cnxd}%&lt;/b&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center justify-center"&gt;&lt;span class="w-3 h-3 rounded-full mr-2" style="background-color: ${colors.dv}"&gt;&lt;/span&gt;Dịch vụ: &lt;b&gt;${province.data.dv}%&lt;/b&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.appendChild(title);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.appendChild(chartContainer);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>card.appendChild(legend);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>provinceGrid.appendChild(card);</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Create chart after the card is in the DOM</p>
+<p class="p1"><span class="Apple-converted-space">            </span>createChart(canvas, province.data);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Function to create a Chart.js pie chart</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function createChart(canvas, data) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const chartData = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels: ['Nông-Lâm-Thủy sản', 'Công nghiệp-Xây dựng', 'Dịch vụ'],</p>
+<p class="p1"><span class="Apple-converted-space">                </span>datasets: [{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>label: 'Cơ cấu kinh tế',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: [data.nlts, data.cnxd, data.dv],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>backgroundColor: [colors.nlts, colors.cnxd, colors.dv],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>borderColor: [borderColors.nlts, borderColors.cnxd, borderColors.dv],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>borderWidth: 1,</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>hoverOffset: 8</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>new Chart(canvas, {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>type: 'doughnut',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>data: chartData,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>options: {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>responsive: true,</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>maintainAspectRatio: false,</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>plugins: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>legend: {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>display: false // We use custom legend</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>tooltip: {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>callbacks: {</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>label: function(context) {</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>let label = context.label || '';</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>if (label) {</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>label += ': ';</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>if (context.parsed !== null) {</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>label += context.parsed + '%';</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>return label;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>cutout: '60%'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Function to render all provinces</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function renderProvinces(provinces) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>provinceGrid.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>provinces.forEach(createProvinceCard);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Function to filter and render provinces</p>
+<p class="p1"><span class="Apple-converted-space">        </span>function filterAndRender() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const searchTerm = searchInput.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const selectedRegion = regionFilter.value;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const filteredProvinces = provinceData.filter(province =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const normalizedName = province.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d");</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const nameMatch = normalizedName.includes(searchTerm);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const regionMatch = selectedRegion === 'all' || province.region === selectedRegion;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return nameMatch &amp;&amp; regionMatch;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>renderProvinces(filteredProvinces);</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (filteredProvinces.length === 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>noResults.classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>noResults.classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Initial render</p>
+<p class="p1"><span class="Apple-converted-space">        </span>renderProvinces(provinceData);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Event Listeners</p>
+<p class="p1"><span class="Apple-converted-space">        </span>searchInput.addEventListener('input', filterAndRender);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>regionFilter.addEventListener('change', filterAndRender);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
